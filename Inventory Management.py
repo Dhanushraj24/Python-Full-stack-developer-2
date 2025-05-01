@@ -3,7 +3,10 @@
 
 inventory = {}
 
+# Using a while loop for (adding, removing, and exiting), once the condition is met, it will exit the program
+
 while True:
+
     try:
         operation = input("Enter operation (add/remove/exit): ").lower()
 
@@ -32,6 +35,8 @@ while True:
 
         else:
             print("Invalid operation. Please enter add, remove, or exit.")
-
+            
+# Using exception handling to present in the program
+    
     except ValueError:
         print("Error: Quantity must be an integer.")
