@@ -36,7 +36,7 @@ while True:
         else:
             print("Invalid operation. Please enter add, remove, or exit.")
             
-# Using exception handling to find out the eroor in the program
+# Using exception handling to find out the error in the program
     
     except ValueError:
         print("Error: Quantity must be an integer.")
